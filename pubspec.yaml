@@ -19,8 +19,9 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-#  sdk: '>=3.3.1 <4.0.0'
-   sdk: '3.3.0'
+ sdk: '>=3.3.1 <4.0.0'
+  #  sdk: '3.3.0'
+  #  sdk: '3.3.4'
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
 # consider running `flutter pub upgrade --major-versions`. Alternatively,
@@ -84,6 +85,13 @@ flutter:
     - assets/logo.svg
     - assets/logo.png
     - assets/header.jpg
+    - assets/lobster.jpg
+    - assets/SangSeafood.jpg
+    - assets/Dragon.jpg
+    - assets/layar.jpg
+    - assets/Indragiri.jpg
+    - assets/Rajalobster.jpg
+    - assets/XiangFuHai.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

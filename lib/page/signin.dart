@@ -231,7 +231,11 @@ class __FormContentState extends State<_FormContent> {
                           color: Colors.white),
                     ),
                   ),
-                  onPressed: cekRegister),
+                  onPressed:
+                      // cekRegister
+                      () {
+                    Navigator.pushNamed(context, '/landing');
+                  }),
             ),
             TextButton(
                 onPressed: () {
